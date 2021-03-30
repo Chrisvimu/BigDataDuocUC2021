@@ -11,8 +11,8 @@ All of the course materials will be put here.
 
  ## Setting up the Env:
 
-    - Install your code editor of choice.
-    - Install [Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
+   - Install your code editor of choice.
+   - Install [Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
 
  ### Instaling Docker:
 
@@ -35,3 +35,4 @@ TLDR, Execute this steps:
 5. Execute this on the cloudera terminal and replace "cloudera/quickstart" if it's diferent: `$  docker run --hostname=quickstart.cloudera  --privileged=true -it  --publish-all=true  -p 8888:8888 -p 8080:80 -p 7180:7180  cloudera/quickstart /usr/bin/docker-quickstart`
     - you should see the start of an SQL command and a couple of services starting. Once it's done go to step 6.
 6. Once inside the Cloudera command line run: 
+
