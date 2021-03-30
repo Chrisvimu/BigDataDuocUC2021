@@ -33,4 +33,4 @@ TLDR, Execute this steps:
 4.  `$  docker ps`
     - You should see your cloudera container, if not try adding *-a* to the command.
 5. Execute this on the cloudera terminal: `$  sudo /home/cloudera/cloudera-manager --express`
-    - 
+    - Pending
