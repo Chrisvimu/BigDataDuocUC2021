@@ -11,8 +11,8 @@ All of the course materials will be put here.
 
  ## Setting up the Env:
 
-    - Install your code editor of choice.
-    - Install [Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
+   - Install your code editor of choice.
+   - Install [Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
 
  ### Instaling Docker:
 
