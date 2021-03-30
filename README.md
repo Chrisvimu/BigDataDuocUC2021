@@ -22,7 +22,7 @@ All of the course materials will be put here.
 
 ### Instaling Cloudera
 
-* Follow the oficial [documentation](https://medium.com/@dataakkadian/how-to-install-and-running-cloudera-docker-container-on-ubuntu-b7c77f147e03) here about how to do it.
+* Follow the oficial [documentation](https://hub.docker.com/r/cloudera/quickstart/) here about how to do it.
 
 TLDR, Execute this steps:
 1. ` $  docker pull cloudera/quickstart:latest `
@@ -32,5 +32,5 @@ TLDR, Execute this steps:
     - You should have an active conection to root for the container, open a new terminal and run the following step.
 4.  `$  docker ps`
     - You should see your cloudera container, if not try adding *-a* to the command.
-5. Execute this on the cloudera terminal: `$  sudo /home/cloudera/cloudera-manager --express`
-    - 
+5. Execute this on the cloudera terminal and replace "cloudera/quickstart" if it's diferent: `$  docker run --hostname=quickstart.cloudera --privileged=true -t -i  cloudera/quickstart /usr/bin/docker-quickstart`
+    - pending
