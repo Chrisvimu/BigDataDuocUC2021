@@ -35,5 +35,5 @@ TLDR, Execute this steps:
     - You should see your cloudera container, if not try adding *-a* to the command to see stopped containers.
 5. Execute this on the cloudera terminal and replace "cloudera/quickstart" if it's diferent: `$  docker run --hostname=quickstart.cloudera  --privileged=true -it  --publish-all=true  -p 8888:8888 -p 8080:80 -p 7180:7180  cloudera/quickstart /usr/bin/docker-quickstart`
     - you should see the start of an SQL command and a couple of services starting. Once it's done go to step 6.
-6. Once inside the Cloudera command line run: 
+6. Once inside the Cloudera command line run a service you want by console, or go to localhost:YourUsedPort
 
