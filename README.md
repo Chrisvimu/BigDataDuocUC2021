@@ -28,10 +28,11 @@ TLDR, Execute this steps:
 1. ` $  docker pull cloudera/quickstart:latest `
 2. ` $  docker images `
     - You should be able to see *"cloudera/quickstart  latest  __ID__"* inside your images.
-3. ` $  docker run --hostname=quickstart.cloudera --privileged=true -it -p 7180:7180 cloudera/quickstart /usr/bin/docker-quickstart `
+3. If you want to run it in a driverless mode, run:
+   ` $  docker run --hostname=quickstart.cloudera --privileged=true -it -p 7180:7180 cloudera/quickstart /usr/bin/docker-quickstart `
     - You should have an active conection to root for the container, open a new terminal and run the following step.
-4.  `$  docker ps`
-    - You should see your cloudera container, if not try adding *-a* to the command.
+4.  `$  docker ps` 
+    - You should see your cloudera container, if not try adding *-a* to the command to see stopped containers.
 5. Execute this on the cloudera terminal and replace "cloudera/quickstart" if it's diferent: `$  docker run --hostname=quickstart.cloudera  --privileged=true -it  --publish-all=true  -p 8888:8888 -p 8080:80 -p 7180:7180  cloudera/quickstart /usr/bin/docker-quickstart`
     - you should see the start of an SQL command and a couple of services starting. Once it's done go to step 6.
 6. Once inside the Cloudera command line run: 
